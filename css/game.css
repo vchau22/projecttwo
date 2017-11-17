@@ -1,0 +1,24 @@
+.background    { background-image: url("https://upload.wikimedia.org/wikipedia/commons/e/ef/Gravitational_lensing_in_the_galaxy_cluster_Abell_370_%28captured_by_the_Hubble_Space_Telescope%29.jpg");
+                 table-layout: fixed;
+                 border-spacing: 0;   }
+.background td { padding: 0;          }
+.lava          { background: linear-gradient(red, yellow); }
+.wall          { background: rgb(169, 169, 169); }
+
+.actor  { position: absolute;  }
+.coin   { background: rgb(255, 246, 102); }
+.player { background: rgb(255, 102, 118); }
+
+.game {
+  overflow: hidden;
+  max-width: 600px;
+  max-height: 450px;
+  position: relative;
+}
+
+.lost .player {
+  background: rgb(160, 64, 64);
+}
+.won .player {
+  box-shadow: -4px -7px 8px white, 4px -7px 8px white;
+}
